@@ -19,3 +19,33 @@ Aim is to revise JavaScript and introduce myself to the Jest testing framework b
 6. Install Jest locally within only this directory ```npm install --save-dev jest```
 
 Instructions are based on: https://medium.com/@ryanblahnik/setting-up-testing-with-jest-and-node-js-b793f1b5621e
+
+
+## Run Practice test
+
+1. Create 2 files in the main directory: 'sum.test.js' and 'sum.js'
+
+2. Add the following to 'sum.test.js':
+```
+const sum = require('./sum');
+
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
+});
+```
+
+3. Add the below to 'sum.js':
+```
+function sum(a, b) {
+  return a + b;
+}
+module.exports = sum;
+```
+
+4. Run test using: ```node_modules/.bin/jest```
+
+5. To run tests whilst working: ```node_modules/.bin/jest --watch```
+
+Guidance based on:
+https://github.com/facebook/jest
+https://medium.com/@ryanblahnik/setting-up-testing-with-jest-and-node-js-b793f1b5621e
