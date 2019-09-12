@@ -1,6 +1,6 @@
 const fizzbuzz = require('./fizzbuzz');
 
-test('returns the number 1', () => {
+test('returns 1 for the number 1', () => {
   expect(fizzbuzz(1)).toEqual(1);
 });
 
@@ -26,4 +26,8 @@ test('returns "Buzz" for the number 10', () => {
 
 test('returns "FizzBuzz" for the number 30', () => {
   expect(fizzbuzz(30)).toEqual('FizzBuzz');
+});
+
+test('returns 7 for the number 7', () => {
+  expect(fizzbuzz(7)).toEqual(7);
 });

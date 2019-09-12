@@ -6,7 +6,7 @@ function fizzbuzz(number) {
   } else if (number % 5 == 0) {
     return 'Buzz';
   } else {
-    return 1;
+    return number;
   }
 };
 
