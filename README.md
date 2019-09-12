@@ -4,6 +4,15 @@
 
 Aim is to revise JavaScript and introduce myself to the Jest testing framework by test driving the FizzBuzz kata.
 
+## What is FizzBuzz?
+
+A small kata which requires the numbers 1 to 100 to be printed, with the following conditions:
+
+1. If the number is divisible by 3, return "Fizz"
+2. If the number is divisible by 5, return "Buzz"
+3. If the number is divisible by 3 and 5, return "Fizzbuzz"
+4. Otherwise simply return the number
+
 ## Setup
 
 1. Create a directory for the project ```mkdir FizzBuzz-JavaScript-Jest```
