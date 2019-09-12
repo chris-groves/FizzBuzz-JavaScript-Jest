@@ -12,7 +12,6 @@ test('returns "Buzz" for the number 5', () => {
   expect(fizzbuzz(5)).toEqual('Buzz');
 });
 
-// test('prints out the numbers 1 to 100', () => {
-//   var value = this.array[0]
-//   expect(value).toEqual(1);
-// });
+test('returns "FizzBuzz" for the number 15', () => {
+  expect(fizzbuzz(15)).toEqual('FizzBuzz');
+})
