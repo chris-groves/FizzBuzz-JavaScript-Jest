@@ -21,7 +21,7 @@ A small kata which requires the numbers 1 to 100 to be printed, with the followi
 
 3. Confirm Node is installed ```node -v```
 
-4. Confirm npm command-line package is available ```npm-v```
+4. Confirm npm command-line package is available ```npm -v```
 
 5. Create a package.json file ```npm init -y```
 
